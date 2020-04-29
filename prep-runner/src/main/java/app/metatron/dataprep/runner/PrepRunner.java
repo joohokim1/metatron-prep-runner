@@ -16,9 +16,9 @@ package app.metatron.dataprep.runner;
 
 import static app.metatron.dataprep.runner.RunnerUtil.buildSourceDesc;
 import static app.metatron.dataprep.runner.RunnerUtil.buildTargetDesc;
+import static app.metatron.dataprep.runner.RunnerUtil.getLinesFromFile;
+import static app.metatron.dataprep.runner.RunnerUtil.prepareOptions;
 import static app.metatron.dataprep.runner.RunnerUtil.printArguments;
-import static app.metatron.dataprep.util.PrepUtil.getLinesFromFile;
-import static app.metatron.dataprep.util.RunnerUtil.prepareOptions;
 
 import app.metatron.dataprep.PrepContext;
 import app.metatron.dataprep.SourceDesc;
